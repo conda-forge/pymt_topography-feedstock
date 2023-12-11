@@ -30,6 +30,8 @@ test:
     - bmi-tester
   imports:
     - pymt_topography
+  source_files:
+    - examples
   commands:
     - bmi-test pymt_topography.bmi:Topography --config-file=examples/bmi-topography.yaml --root-dir=examples -vvv  # [unix]
 
