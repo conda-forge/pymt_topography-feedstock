@@ -16,10 +16,13 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.9
     - pip
+    - meson-python
+    - meson
+    - ninja
   run:
-    - python >=3.6
+    - python >=3.9
     - bmi-topography
 
 test:
@@ -35,10 +38,10 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: Provides access to SRTM land elevation data within *pymt*.
+  summary: Provides access to land elevation data within *pymt*.
   description: |
     *pymt_topography* is a Python package for a Python Modeling Toolkit (*pymt*)
-    component that provides access to SRTM land elevation data through the
+    component that provides access to land elevation data through the
     OpenTopography REST API.
   doc_url: https://pymt-topography.readthedocs.io
   dev_url: https://github.com/pymt-lab/pymt_topography
