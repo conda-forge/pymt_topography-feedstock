@@ -31,7 +31,7 @@ test:
   imports:
     - pymt_topography
   commands:
-    - bmi-test pymt_topography.bmi:Topography -vvv  # [unix]
+    - bmi-test pymt_topography.bmi:Topography --config-file=examples/bmi-topography.yaml --root-dir=examples -vvv  # [unix]
 
 about:
   home: https://github.com/pymt-lab/pymt_topography
