@@ -7,14 +7,14 @@ Home: https://github.com/pymt-lab/pymt_topography
 
 Package license: MIT
 
-Summary: Provides access to SRTM land elevation data within *pymt*.
+Summary: Provides access to land elevation data within *pymt*.
 
 Development: https://github.com/pymt-lab/pymt_topography
 
 Documentation: https://pymt-topography.readthedocs.io
 
 *pymt_topography* is a Python package for a Python Modeling Toolkit (*pymt*)
-component that provides access to SRTM land elevation data through the
+component that provides access to land elevation data through the
 OpenTopography REST API.
 
 
