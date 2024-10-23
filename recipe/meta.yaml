@@ -16,13 +16,13 @@ build:
 
 requirements:
   host:
-    - python >=3.9
+    - python >=3.10
     - pip
     - meson-python
     - meson
     - ninja
   run:
-    - python >=3.9
+    - python >=3.10
     - bmi-topography
 
 test:
