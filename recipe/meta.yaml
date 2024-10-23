@@ -28,13 +28,12 @@ requirements:
 test:
   requires:
     - bmi-tester
-    - make
   imports:
     - pymt_topography
   source_files:
     - examples
   commands:
-    - make test  # [unix]
+    - bmi-test pymt_topography.bmi:Topography --config-file=${PWD}/examples/bmi-topography.yaml --root-dir=examples -vvv  # [unix]
 
 about:
   home: https://github.com/pymt-lab/pymt_topography
