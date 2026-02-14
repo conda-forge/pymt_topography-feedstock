@@ -38,7 +38,7 @@ test:
     - bmi-test pymt_topography.bmi:Topography --config-file=${PWD}/examples/bmi-topography.yaml --root-dir=examples -vvv  # [unix]
 
 about:
-  home: https://github.com/pymt-lab/pymt_topography
+  home: https://csdms.colorado.edu
   license: MIT
   license_family: MIT
   license_file: LICENSE
