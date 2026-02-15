@@ -41,7 +41,7 @@ about:
   home: https://csdms.colorado.edu
   license: MIT
   license_family: MIT
-  license_file: LICENSE
+  license_file: LICENSE.md
   summary: Provides access to land elevation data within *pymt*.
   description: |
     *pymt_topography* is a Python package for a Python Modeling Toolkit (*pymt*)
