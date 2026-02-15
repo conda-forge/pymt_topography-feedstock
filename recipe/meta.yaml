@@ -42,7 +42,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE.md
-  summary: Provides access to land elevation data within *pymt*.
+  summary: Provides access to land elevation data from the Python Modeling Toolkit.
   description: |
     *pymt_topography* is a Python package for a Python Modeling Toolkit (*pymt*)
     component that provides access to land elevation data through the
