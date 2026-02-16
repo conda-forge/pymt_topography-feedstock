@@ -1,6 +1,6 @@
 {% set python_min = "3.12" %}
 {% set name = "pymt_topography" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/pymt-lab/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: ac6ff7012ccf65bb6308c7507b125a26428b1dc486efc36a5906544b5b104e25
+  sha256: ee72dacf2636b36d75df8773c2ca243b5a058f2549901ace34cf69f5798fe5c8
 
 build:
   noarch: python
@@ -41,8 +41,8 @@ about:
   home: https://csdms.colorado.edu
   license: MIT
   license_family: MIT
-  license_file: LICENSE
-  summary: Provides access to land elevation data within *pymt*.
+  license_file: LICENSE.md
+  summary: Provides access to land elevation data from the Python Modeling Toolkit.
   description: |
     *pymt_topography* is a Python package for a Python Modeling Toolkit (*pymt*)
     component that provides access to land elevation data through the

@@ -3,7 +3,7 @@ About pymt_topography-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pymt_topography-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/pymt-lab/pymt_topography
+Home: https://csdms.colorado.edu
 
 Package license: MIT
 
